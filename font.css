@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'texgyreadventor';
+
+    src: 
+         url('css/fonts/texgyreadventor-bold.woff') format('woff'),
+         url('css/fonts/texgyreadventor-bold.ttf') format('truetype');
+         
+}
+
+
+@font-face {
+    font-family: 'CollegiateBlackFLF';
+
+    src: 
+         url('css/fonts/collegiateblackflf-webfont.woff') format('woff'),
+         url('css/fonts/CollegiateBlackFLF.ttf') format('truetype');
+         
+}
+
+
+@font-face {
+    font-family: 'vonique_64-webfont';
+    
+    src: 
+         url('css/fonts/vonique_64-webfont.woff') format('woff'),
+         url('css/fonts/vonique_64-webfont.ttf') format('truetype');
+         
+
+}
+
+@font-face {
+    font-family: 'PoiretOne-Regular';
+    
+    src: 
+         url('css/fonts/poiretone-regular-webfont.woff') format('woff'),
+         url('css/fonts/PoiretOne-Regular.ttf') format('truetype');
+         
+
+}
+
+@font-face {
+    font-family: 'dirtyoldtown-webfont';
+
+    src: 
+         url('css/fonts/dirtyoldtown-webfont-webfont.woff') format('woff'),
+         url('css/fonts/dirtyoldtown-webfont.ttf') format('truetype');
+         
+}
+
+@font-face {
+    font-family: 'SimplySquare';
+
+    src: 
+         url('css/fonts/simplysquare-webfont.woff') format('woff'),
+         url('css/fonts/SimplySquare.ttf') format('truetype');
+         
+}
+
+@font-face {
+    font-family: 'champagne__limousines_bold-webfont';
+
+    src: 
+         url('css/fonts/champagne__limousines_bold-webfont.woff') format('woff'),
+         url('css/fonts/champagne__limousines_bold-webfont.ttf') format('truetype');
+         
+}
+
+@font-face {
+    font-family: 'LemonMilk';
+
+    src: 
+         url('css/fonts/lemonmilk-webfont.woff') format('woff'),
+         url('css/fonts/LemonMilk.ttf') format('truetype');
+         
+}

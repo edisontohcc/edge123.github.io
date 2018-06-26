@@ -1,0 +1,418 @@
+@font-face {
+	font-family: 'bpmenu';
+	src:url('../fonts/bpmenu/bpmenu.eot');
+	src:url('../fonts/bpmenu/bpmenu.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bpmenu/bpmenu.woff') format('woff'),
+		url('../fonts/bpmenu/bpmenu.ttf') format('truetype'),
+		url('../fonts/bpmenu/bpmenu.svg#bpmenu') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.cbp-hssubmenu-info2 span{
+	font-family: LemonMilk;
+	font-size: 40px;
+	line-height: 50px;
+	color: #3e8d79;
+	letter-spacing: 2px;
+	margin: 15% 5% 5% 5%;
+}
+
+.cbp-hssubmenu-info2 {
+	font-family: LemonMilk;
+	font-size: 15px;
+	line-height: 25px;
+	color: #a8a8a8;
+	letter-spacing: 2px;
+	margin: 15% 5% 5% 5%;
+}
+
+/* Main menu wrapper */
+.cbp-hsmenu-wrapper2 {
+	
+	margin: 0% 0 0 0;
+	position: relative;
+}
+
+/* Common style for all lists */
+.cbp-hsmenu-wrapper2 ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+
+/* 100% width bar for menu */
+.cbp-hsinner2 {
+	width: 100%;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+}
+
+/* Main menu style */
+.cbp-hsmenu-wrapper2 .cbp-hsmenu2{
+	width:100%;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 5% 0 5% 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+.cbp-hsmenu2> li {
+	margin-left: 0em;
+	display: inline-block;
+	margin: 0% 0 0 0;
+	text-decoration: none;
+	width: 32%;
+	height: 100%;
+}
+
+
+.cbp-hsmenu2> li:first-child {
+	text-decoration: none;
+	margin-left: 0;
+}
+
+.group-icon {
+	width: 50%;
+	height: auto;
+}
+
+/* Main menu link style */
+.cbp-hsmenu2> li > a {
+	text-decoration: none;
+	text-align: center;
+	color: #a8a8a8;
+	font-family: LemonMilk;
+	font-size: 15px;
+	line-height: 25px;
+	margin: 0% 0 0% 0;
+	font-weight: normal;
+	letter-spacing: 3px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	outline: none;
+}
+
+.group-icon-title2 {
+		text-decoration: none;
+	text-align: center;
+	color: #a8a8a8;
+	font-family: LemonMilk;
+	font-size: 25px;
+	line-height: 35px;
+	margin: 5% 0 0% 0;
+	font-weight: bold;
+	letter-spacing: 3px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	outline: none;
+}
+
+.no-touch2 .cbp-hsmenu2> li > a:hover,
+.no-touch2 .cbp-hsmenu2> li > a:focus,
+.cbp-hsmenu2> li.cbp-hsitem-open2 > a {
+	color: #3e8d79;
+}
+
+/* Add an arrow to the main menu link if it has a submenu (not the only child) */
+.cbp-hsmenu2> li > a:not(:only-child):before {
+	position: absolute;
+	display: inline-block;
+	font-family: LemonMilk;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	
+	content: "";
+	font-size: 80%;
+	margin-right: 0.3em;
+	opacity: 0.4;
+	vertical-align: middle;
+}
+
+.cbp-hsmenu2> li.cbp-hsitem-open2 > a:not(:only-child):before {
+	content: "";
+}
+
+/* Add a triangle to currently open menu item link */
+.cbp-hsmenu2> li.cbp-hsitem-open2 > a:after {
+	top: 100%;
+	border: solid transparent;
+	font-family: LemonMilk;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: transparent;
+	border-top-color: #3e8d79;
+	border-width: 10px;
+	left: 50%;
+	margin-left: -10px;
+}
+
+/* Submenu style */
+.cbp-hssubmenu2 {
+	
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 100%;
+	width: 100%;
+	
+	z-index: 0;
+	text-align: center; /* for aligning the sub items */
+	visibility: hidden;
+}
+
+.cbp-hssubmenu2:before, 
+.cbp-hssubmenu2:after { 
+	content: " "; 
+	display: table; 
+}
+.cbp-hssubmenu2:after { 
+	clear: both; 
+}
+
+/* Let's allow 6 item in a row */
+.cbp-hssubmenu2 > li {
+	width: 24.53%;
+	
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: -28px 0 0 -27px #ddd, 0 -28px 0 -27px #ddd;
+	opacity: 0;
+	-webkit-transition: opacity 0.1s 0s;
+	-moz-transition: opacity 0.1s 0s;
+	transition: opacity 0.1s 0s;
+}
+
+/* First 4 items don't have upper box shadow */
+.cbp-hssubmenu2 > li:nth-child(-n+4) {
+	box-shadow: -28px 0 0 -27px #ddd;
+} 
+
+/* Every 5th item does not have a left box shadow */
+.cbp-hssubmenu2 > li:nth-child(4n+1) {
+	box-shadow:  0 -28px 0 -27px #ddd;
+}
+
+/* The first one does not have any box shadow */
+.cbp-hssubmenu2 > li:first-child {
+	box-shadow: none;
+	height: 200%;
+}
+
+.cbp-hssubmenu2 > li a {
+	font-family: LemonMilk;
+	letter-spacing: 2px;
+	display: block;
+	text-align: center;
+	color: #a8a8a8;
+	outline: none;
+	padding: 2em 1em 1em 1em;
+}
+
+.no-touch2 .cbp-hssubmenu2 > li a:hover,
+.no-touch2 .cbp-hssubmenu2 > li a:focus {
+	color: #888;
+	text-decoration: none;
+}
+
+.cbp-hssubmenu2 > li a img {
+	border: none;
+	outline: none;
+	display: inline-block;
+	
+	max-width: 120%;
+	margin:  0 -10% 0 -10%;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.no-touch2 .cbp-hssubmenu2 > li a:hover img {
+	opacity: 0.5;
+}
+
+.cbp-hssubmenu2 > li a span {
+	display: block;
+	min-height: 3em;
+	margin-top: 0.4em;
+}
+
+.cbp-hsmenu2> li.cbp-hsitem-open2 .cbp-hssubmenu2 {
+	z-index: 1;
+	visibility: visible;
+	height: auto;
+	text-decoration: none;
+}
+
+
+
+.cbp-hsmenu2> li.cbp-hsitem-open2 .cbp-hssubmenu2 > li {
+	opacity: 1;
+	text-decoration: none;
+	-webkit-transition: opacity 0.5s 0.1s;
+	-moz-transition: opacity 0.5s 0.1s;
+	transition: opacity 0.5s 0.1s;
+}
+
+/* Helper div for animating the background */
+.cbp-hsmenubg2 {
+	background-color:rgba(235,235,235,0.7);
+	margin: 0 0% 0 0%;
+	width: 100%;
+	box-shadow: 0 0 100px 0 #c0c0c0;
+	
+	top: 100%;
+	left: 0;
+	z-index: 0;
+	height: 0px;
+}
+
+.no-touch2 .cbp-hsmenubg2 {
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+
+
+@media screen and (max-width: 768px){
+	
+	.group-icon {
+	width: 40%;
+	height: auto;
+}
+
+.cbp-hssubmenu-info2 span{
+	font-family: LemonMilk;
+	font-size: 30px;
+	line-height: 40px;
+	color: #3e8d79;
+	letter-spacing: 2px;
+
+}
+
+.cbp-hssubmenu2-info2 {
+	font-family: LemonMilk;
+	font-size: 15px;
+	line-height: 25px;
+	color: #a8a8a8;
+	letter-spacing: 2px;
+
+}
+
+.group-icon-title2 {
+		text-decoration: none;
+	text-align: center;
+	color: #a8a8a8;
+	font-family: LemonMilk;
+	font-size: 25px;
+	line-height: 35px;
+	margin: 5% 5% 0% 5%;
+	font-weight: bold;
+	letter-spacing: 3px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	outline: none;
+}
+
+	.cbp-hsmenu-wrapper2 {
+		font-size: 100%;
+	}
+
+	.cbp-hsmenu-wrapper2 .cbp-hsmenu2{
+		padding: 0;
+		max-width: none;
+		width: 100%;
+		margin: -2.5% 0 0 0;
+	}
+
+	.cbp-hsmenu2> li {
+		border-top: 0px solid rgba(255,255,255,0.5);
+		text-align: center;
+		margin: 2.5% 0 0 0;
+		display: block;
+			width: 100%;
+	height: 100%;
+	}
+
+
+	
+	.cbp-hsmenu2> li:first-child {
+		border-top: none;
+	}
+
+	.cbp-hsmenu2> li > a {
+		display: block;
+		font-size: 15px;
+		line-height:25px;
+		margin: 0 0 10% 0;
+	}
+
+	.cbp-hsmenu2> li > a:not(:only-child):before {
+		line-height: 1.8;
+		right: 0;
+		position: absolute;
+		font-size: 200%;
+	}
+
+	.cbp-hsmenubg2 {
+		display: none;
+	}
+
+	
+
+
+	.cbp-hssubmenu2 {
+			background-color:rgba(235,235,235,0.7);
+		left: 0%;
+
+	top: 100%;
+	width: 100%;
+	
+	box-shadow: 0 0 100px 0 #c0c0c0;
+		position: relative;
+		overflow: hidden;
+		height: 0;
+	}
+
+	.cbp-hsmenu2> li.cbp-hsitem-open2 .cbp-hssubmenu2 {
+		height: auto;
+	}
+
+	/* Let's only allow 3 item in a row now */
+	.cbp-hssubmenu2 > li {
+		width: 100%;
+	}
+
+	/* Reset box shadows for the 6 items in row case */
+	.cbp-hssubmenu2 > li:nth-child(-n+6),
+	.cbp-hssubmenu2 > li:nth-child(6n+1) {
+		box-shadow: -28px 0 0 -27px #ddd, 0 -28px 0 -27px #ddd;
+	}
+
+	/* First 4 items don't have upper box shadow */
+	.cbp-hssubmenu2 > li:nth-child(-n+1) {
+		box-shadow: -28px 0 0 -27px #ddd;
+	} 
+
+	/* Every 5th item does not have a left box shadow */
+	.cbp-hssubmenu2 > li:nth-child(1n+1) {
+		box-shadow:  0 -28px 0 -27px #ddd;
+	}
+
+}

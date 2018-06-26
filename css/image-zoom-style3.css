@@ -1,0 +1,142 @@
+#myImg-zoom-111,#myImg-zoom-112,#myImg-zoom-113,#myImg-zoom-114,#myImg-zoom-115,#myImg-zoom-116,#myImg-zoom-117,#myImg-zoom-118,#myImg-zoom-119,#myImg-zoom-1110,#myImg-zoom-1111,#myImg-zoom-1112,#myImg-zoom-1113,#myImg-zoom-1114,#myImg-zoom-1115,#myImg-zoom-1116,#myImg-zoom-1117,#myImg-zoom-1118,#myImg-zoom-1119,#myImg-zoom-1120,#myImg-zoom-1121,#myImg-zoom-1122,#myImg-zoom-1123,#myImg-zoom-1124,#myImg-zoom-1125,#myImg-zoom-1126,#myImg-zoom-1127,#myImg-zoom-1128,#myImg-zoom-1129,#myImg-zoom-1130,#myImg-zoom-1131,#myImg-zoom-1132,#myImg-zoom-1133,#myImg-zoom-1134,#myImg-zoom-1135,#myImg-zoom-1136,#myImg-zoom-1137,#myImg-zoom-1138,#myImg-zoom-1139,#myImg-zoom-1140,#myImg-zoom-1141,#myImg-zoom-1142,#myImg-zoom-1143,#myImg-zoom-1144,#myImg-zoom-1145,#myImg-zoom-1146,#myImg-zoom-1147,#myImg-zoom-1148,#myImg-zoom-1149,#myImg-zoom-1150,#myImg-zoom-1151{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0s;
+	
+}
+
+#myImg-zoom-111,#myImg-zoom-112,#myImg-zoom-113,#myImg-zoom-114,#myImg-zoom-115,#myImg-zoom-116,#myImg-zoom-117,#myImg-zoom-118,#myImg-zoom-119,#myImg-zoom-1110,#myImg-zoom-1111,#myImg-zoom-1112,#myImg-zoom-1113,#myImg-zoom-1114,#myImg-zoom-1115,#myImg-zoom-1116,#myImg-zoom-1117,#myImg-zoom-1118,#myImg-zoom-1119,#myImg-zoom-1120,#myImg-zoom-1121,#myImg-zoom-1122,#myImg-zoom-1123,#myImg-zoom-1124,#myImg-zoom-1125,#myImg-zoom-1126,#myImg-zoom-1127,#myImg-zoom-1128,#myImg-zoom-1129,#myImg-zoom-1130,#myImg-zoom-1131,#myImg-zoom-1132,#myImg-zoom-1133,#myImg-zoom-1134,#myImg-zoom-1135,#myImg-zoom-1136,#myImg-zoom-1137,#myImg-zoom-1138,#myImg-zoom-1139,#myImg-zoom-1140,#myImg-zoom-1141,#myImg-zoom-1142,#myImg-zoom-1143,#myImg-zoom-1144,#myImg-zoom-1145,#myImg-zoom-1146,#myImg-zoom-1147,#myImg-zoom-1148,#myImg-zoom-1149,#myImg-zoom-1150,#myImg-zoom-1151:hover{
+	opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal-zoom-111,.modal-zoom-112,.modal-zoom-113,.modal-zoom-114,.modal-zoom-115,.modal-zoom-116,.modal-zoom-117,.modal-zoom-118,.modal-zoom-119,.modal-zoom-1110,.modal-zoom-1111,.modal-zoom-1112,.modal-zoom-1113,.modal-zoom-1114,.modal-zoom-1115,.modal-zoom-1116,.modal-zoom-1117,.modal-zoom-1118,.modal-zoom-1119,.modal-zoom-1120,.modal-zoom-1121,.modal-zoom-1122,.modal-zoom-1123,.modal-zoom-1124,.modal-zoom-1125,.modal-zoom-1126,.modal-zoom-1127,.modal-zoom-1128,.modal-zoom-1129,.modal-zoom-1130,.modal-zoom-1131,.modal-zoom-1132,.modal-zoom-1133,.modal-zoom-1134,.modal-zoom-1135,.modal-zoom-1136,.modal-zoom-1137,.modal-zoom-1138,.modal-zoom-1139,.modal-zoom-1140,.modal-zoom-1141,.modal-zoom-1142,.modal-zoom-1143,.modal-zoom-1144,.modal-zoom-1145,.modal-zoom-1146,.modal-zoom-1147,.modal-zoom-1148,.modal-zoom-1149,.modal-zoom-1150, .modal-zoom-1151 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width */
+    height:100vh; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+    background-color: rgba(235,235,235,0.95); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content-zoom-111,.modal-content-zoom-112,.modal-content-zoom-113,.modal-content-zoom-114,.modal-content-zoom-115,.modal-content-zoom-116,.modal-content-zoom-117,.modal-content-zoom-118,.modal-content-zoom-119,.modal-content-zoom-1110,.modal-content-zoom-1111,.modal-content-zoom-1112,.modal-content-zoom-1113,.modal-content-zoom-1114,.modal-content-zoom-1115,.modal-content-zoom-1116,.modal-content-zoom-1117,.modal-content-zoom-1118,.modal-content-zoom-1119,.modal-content-zoom-1120,.modal-content-zoom-1121,.modal-content-zoom-1122,.modal-content-zoom-1123,.modal-content-zoom-1124,.modal-content-zoom-1125,.modal-content-zoom-1126,.modal-content-zoom-1127,.modal-content-zoom-1128,.modal-content-zoom-1129,.modal-content-zoom-1130,.modal-content-zoom-1131,.modal-content-zoom-1132,.modal-content-zoom-1133,.modal-content-zoom-1134,.modal-content-zoom-1135,.modal-content-zoom-1136,.modal-content-zoom-1137,.modal-content-zoom-1138,.modal-content-zoom-1139,.modal-content-zoom-1140,.modal-content-zoom-1141,.modal-content-zoom-1142,.modal-content-zoom-1143,.modal-content-zoom-1144,.modal-content-zoom-1145,.modal-content-zoom-1146,.modal-content-zoom-1147,.modal-content-zoom-1148,.modal-content-zoom-1149,.modal-content-zoom-1150, .modal-content-zoom-1151 {
+	z-index: 10000;
+    margin: auto;
+    display: block;
+    width: 40%; /* Full width */
+    height:auto; /* Full height */
+}
+
+/* Caption of Modal Image */
+#caption-zoom-111,#caption-zoom-112,#caption-zoom-113,#caption-zoom-114,#caption-zoom-115,#caption-zoom-116,#caption-zoom-117,#caption-zoom-118,#caption-zoom-119,#caption-zoom-1110,#caption-zoom-1111,#caption-zoom-1112,#caption-zoom-1113,#caption-zoom-1114,#caption-zoom-1115,#caption-zoom-1116,#caption-zoom-1117,#caption-zoom-1118,#caption-zoom-1119,#caption-zoom-1120,#caption-zoom-1121,#caption-zoom-1122,#caption-zoom-1123,#caption-zoom-1124,#caption-zoom-1125,#caption-zoom-1126,#caption-zoom-1127,#caption-zoom-1128,#caption-zoom-1129,#caption-zoom-1130,#caption-zoom-1131,#caption-zoom-1132,#caption-zoom-1133,#caption-zoom-1134,#caption-zoom-1135,#caption-zoom-1136,#caption-zoom-1137,#caption-zoom-1138,#caption-zoom-1139,#caption-zoom-1140,#caption-zoom-1141,#caption-zoom-1142,#caption-zoom-1143,#caption-zoom-1144,#caption-zoom-1145,#caption-zoom-1146,#caption-zoom-1147,#caption-zoom-1148,#caption-zoom-1149,#caption-zoom-1150,#caption-zoom-1151{
+	font-family: LemonMilk;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: normal;
+	letter-spacing: 3px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #3e8d79;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.img-font-color {
+	color: #a8a8a8;
+}
+
+
+/* Add Animation */
+.modal-content-zoom-111,.modal-content-zoom-112,.modal-content-zoom-113,.modal-content-zoom-114,.modal-content-zoom-115,.modal-content-zoom-116,.modal-content-zoom-117,.modal-content-zoom-118,.modal-content-zoom-119,.modal-content-zoom-1110,.modal-content-zoom-1111,.modal-content-zoom-1112,.modal-content-zoom-1113,.modal-content-zoom-1114,.modal-content-zoom-1115,.modal-content-zoom-1116,.modal-content-zoom-1117,.modal-content-zoom-1118,.modal-content-zoom-1119,.modal-content-zoom-1120,.modal-content-zoom-1121,.modal-content-zoom-1122,.modal-content-zoom-1123,.modal-content-zoom-1124,.modal-content-zoom-1125,.modal-content-zoom-1126,.modal-content-zoom-1127,.modal-content-zoom-1128,.modal-content-zoom-1129,.modal-content-zoom-1130,.modal-content-zoom-1131,.modal-content-zoom-1132,.modal-content-zoom-1133,.modal-content-zoom-1134,.modal-content-zoom-1135,.modal-content-zoom-1136,.modal-content-zoom-1137,.modal-content-zoom-1138,.modal-content-zoom-1139,.modal-content-zoom-1140,.modal-content-zoom-1141,.modal-content-zoom-1142,.modal-content-zoom-1143,.modal-content-zoom-1144,.modal-content-zoom-1145,.modal-content-zoom-1146,.modal-content-zoom-1147,.modal-content-zoom-1148,.modal-content-zoom-1149,.modal-content-zoom-1150, .modal-content-zoom-1151, #caption-zoom-111,#caption-zoom-112,#caption-zoom-113,#caption-zoom-114,#caption-zoom-115,#caption-zoom-116,#caption-zoom-117,#caption-zoom-118,#caption-zoom-119,#caption-zoom-1110,#caption-zoom-1111,#caption-zoom-1112,#caption-zoom-1113,#caption-zoom-1114,#caption-zoom-1115,#caption-zoom-1116,#caption-zoom-1117,#caption-zoom-1118,#caption-zoom-1119,#caption-zoom-1120,#caption-zoom-1121,#caption-zoom-1122,#caption-zoom-1123,#caption-zoom-1124,#caption-zoom-1125,#caption-zoom-1126,#caption-zoom-1127,#caption-zoom-1128,#caption-zoom-1129,#caption-zoom-1130,#caption-zoom-1131,#caption-zoom-1132,#caption-zoom-1133,#caption-zoom-1134,#caption-zoom-1135,#caption-zoom-1136,#caption-zoom-1137,#caption-zoom-1138,#caption-zoom-1139,#caption-zoom-1140,#caption-zoom-1141,#caption-zoom-1142,#caption-zoom-1143,#caption-zoom-1144,#caption-zoom-1145,#caption-zoom-1146,#caption-zoom-1147,#caption-zoom-1148,#caption-zoom-1149,#caption-zoom-1150,#caption-zoom-1151{
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.9s;
+    animation-name: zoom;
+    animation-duration: 0.9s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.closes-zoom-111,.closes-zoom-112,.closes-zoom-113,.closes-zoom-114,.closes-zoom-115,.closes-zoom-116,.closes-zoom-117,.closes-zoom-118,.closes-zoom-119,.closes-zoom-1110,.closes-zoom-1111,.closes-zoom-1112,.closes-zoom-1113,.closes-zoom-1114,.closes-zoom-1115,.closes-zoom-1116,.closes-zoom-1117,.closes-zoom-1118,.closes-zoom-1119,.closes-zoom-1120,.closes-zoom-1121,.closes-zoom-1122,.closes-zoom-1123,.closes-zoom-1124,.closes-zoom-1125,.closes-zoom-1126,.closes-zoom-1127,.closes-zoom-1128,.closes-zoom-1129,.closes-zoom-1130,.closes-zoom-1131,.closes-zoom-1132,.closes-zoom-1133,.closes-zoom-1134,.closes-zoom-1135,.closes-zoom-1136,.closes-zoom-1137,.closes-zoom-1138,.closes-zoom-1139,.closes-zoom-1140,.closes-zoom-1141,.closes-zoom-1142,.closes-zoom-1143,.closes-zoom-1144,.closes-zoom-1145,.closes-zoom-1146,.closes-zoom-1147,.closes-zoom-1148,.closes-zoom-1149,.closes-zoom-1150, .closes-zoom-1151 {
+	margin: -18% -150% 0 0;
+	position: relative;
+	font-size: 10px;
+	
+}
+
+/* The Close Button */
+.close-zoom-111,.close-zoom-112,.close-zoom-113,.close-zoom-114,.close-zoom-115,.close-zoom-116,.close-zoom-117,.close-zoom-118,.close-zoom-119,.close-zoom-1110,.close-zoom-1111,.close-zoom-1112,.close-zoom-1113,.close-zoom-1114,.close-zoom-1115,.close-zoom-1116,.close-zoom-1117,.close-zoom-1118,.close-zoom-1119,.close-zoom-1120,.close-zoom-1121,.close-zoom-1122,.close-zoom-1123,.close-zoom-1124,.close-zoom-1125,.close-zoom-1126,.close-zoom-1127,.close-zoom-1128,.close-zoom-1129,.close-zoom-1130,.close-zoom-1131,.close-zoom-1132,.close-zoom-1133,.close-zoom-1134,.close-zoom-1135,.close-zoom-1136,.close-zoom-1137,.close-zoom-1138,.close-zoom-1139,.close-zoom-1140,.close-zoom-1141,.close-zoom-1142,.close-zoom-1143,.close-zoom-1144,.close-zoom-1145,.close-zoom-1146,.close-zoom-1147,.close-zoom-1148,.close-zoom-1149,.close-zoom-1150, .close-zoom-1151 {
+	z-index: 111;
+    position: fixed;
+	margin: 0 0 0 -45px;
+    top: 15px;
+    left: 15px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+.close-zoom-111,.close-zoom-112,.close-zoom-113,.close-zoom-114,.close-zoom-115,.close-zoom-116,.close-zoom-117,.close-zoom-118,.close-zoom-119,.close-zoom-1110,.close-zoom-1111,.close-zoom-1112,.close-zoom-1113,.close-zoom-1114,.close-zoom-1115,.close-zoom-1116,.close-zoom-1117,.close-zoom-1118,.close-zoom-1119,.close-zoom-1120,.close-zoom-1121,.close-zoom-1122,.close-zoom-1123,.close-zoom-1124,.close-zoom-1125,.close-zoom-1126,.close-zoom-1127,.close-zoom-1128,.close-zoom-1129,.close-zoom-1130,.close-zoom-1131,.close-zoom-1132,.close-zoom-1133,.close-zoom-1134,.close-zoom-1135,.close-zoom-1136,.close-zoom-1137,.close-zoom-1138,.close-zoom-1139,.close-zoom-1140,.close-zoom-1141,.close-zoom-1142,.close-zoom-1143,.close-zoom-1144,.close-zoom-1145,.close-zoom-1146,.close-zoom-1147,.close-zoom-1148,.close-zoom-1149,.close-zoom-1150, .close-zoom-1151:hover,
+.close-zoom-111,.close-zoom-112,.close-zoom-113,.close-zoom-114,.close-zoom-115,.close-zoom-116,.close-zoom-117,.close-zoom-118,.close-zoom-119,.close-zoom-1110,.close-zoom-1111,.close-zoom-1112,.close-zoom-1113,.close-zoom-1114,.close-zoom-1115,.close-zoom-1116,.close-zoom-1117,.close-zoom-1118,.close-zoom-1119,.close-zoom-1120,.close-zoom-1121,.close-zoom-1122,.close-zoom-1123,.close-zoom-1124,.close-zoom-1125,.close-zoom-1126,.close-zoom-1127,.close-zoom-1128,.close-zoom-1129,.close-zoom-1130,.close-zoom-1131,.close-zoom-1132,.close-zoom-1133,.close-zoom-1134,.close-zoom-1135,.close-zoom-1136,.close-zoom-1137,.close-zoom-1138,.close-zoom-1139,.close-zoom-1140,.close-zoom-1141,.close-zoom-1142,.close-zoom-1143,.close-zoom-1144,.close-zoom-1145,.close-zoom-1146,.close-zoom-1147,.close-zoom-1148,.close-zoom-1149,.close-zoom-1150, .close-zoom-1151:focus {
+    color: #a8a8a8;
+	z-index: 10000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 768px){
+.modal-content-zoom-111,.modal-content-zoom-112,.modal-content-zoom-113,.modal-content-zoom-114,.modal-content-zoom-115,.modal-content-zoom-116,.modal-content-zoom-117,.modal-content-zoom-118,.modal-content-zoom-119,.modal-content-zoom-1110,.modal-content-zoom-1111,.modal-content-zoom-1112,.modal-content-zoom-1113,.modal-content-zoom-1114,.modal-content-zoom-1115,.modal-content-zoom-1116,.modal-content-zoom-1117,.modal-content-zoom-1118,.modal-content-zoom-1119,.modal-content-zoom-1120,.modal-content-zoom-1121,.modal-content-zoom-1122,.modal-content-zoom-1123,.modal-content-zoom-1124,.modal-content-zoom-1125,.modal-content-zoom-1126,.modal-content-zoom-1127,.modal-content-zoom-1128,.modal-content-zoom-1129,.modal-content-zoom-1130,.modal-content-zoom-1131,.modal-content-zoom-1132,.modal-content-zoom-1133,.modal-content-zoom-1134,.modal-content-zoom-1135,.modal-content-zoom-1136,.modal-content-zoom-1137,.modal-content-zoom-1138,.modal-content-zoom-1139,.modal-content-zoom-1140,.modal-content-zoom-1141,.modal-content-zoom-1142,.modal-content-zoom-1143,.modal-content-zoom-1144,.modal-content-zoom-1145,.modal-content-zoom-1146,.modal-content-zoom-1147,.modal-content-zoom-1148,.modal-content-zoom-1149,.modal-content-zoom-1150, .modal-content-zoom-1151 {
+	z-index: 10000;
+    margin: auto;
+    display: block;
+    width: 100%; /* Full width */
+    height:auto; /* Full height */
+}
+	
+	
+.closes-zoom-111,.closes-zoom-112,.closes-zoom-113,.closes-zoom-114,.closes-zoom-115,.closes-zoom-116,.closes-zoom-117,.closes-zoom-118,.closes-zoom-119,.closes-zoom-1110,.closes-zoom-1111,.closes-zoom-1112,.closes-zoom-1113,.closes-zoom-1114,.closes-zoom-1115,.closes-zoom-1116,.closes-zoom-1117,.closes-zoom-1118,.closes-zoom-1119,.closes-zoom-1120,.closes-zoom-1121,.closes-zoom-1122,.closes-zoom-1123,.closes-zoom-1124,.closes-zoom-1125,.closes-zoom-1126,.closes-zoom-1127,.closes-zoom-1128,.closes-zoom-1129,.closes-zoom-1130,.closes-zoom-1131,.closes-zoom-1132,.closes-zoom-1133,.closes-zoom-1134,.closes-zoom-1135,.closes-zoom-1136,.closes-zoom-1137,.closes-zoom-1138,.closes-zoom-1139,.closes-zoom-1140,.closes-zoom-1141,.closes-zoom-1142,.closes-zoom-1143,.closes-zoom-1144,.closes-zoom-1145,.closes-zoom-1146,.closes-zoom-1147,.closes-zoom-1148,.closes-zoom-1149,.closes-zoom-1150, .closes-zoom-1151 {
+	margin: -18% -120% 0 0;
+	position: relative;
+	font-size: 10px;
+}
+
+/* The Close Button */
+.close-zoom-111,.close-zoom-112,.close-zoom-113,.close-zoom-114,.close-zoom-115,.close-zoom-116,.close-zoom-117,.close-zoom-118,.close-zoom-119,.close-zoom-1110,.close-zoom-1111,.close-zoom-1112,.close-zoom-1113,.close-zoom-1114,.close-zoom-1115,.close-zoom-1116,.close-zoom-1117,.close-zoom-1118,.close-zoom-1119,.close-zoom-1120,.close-zoom-1121,.close-zoom-1122,.close-zoom-1123,.close-zoom-1124,.close-zoom-1125,.close-zoom-1126,.close-zoom-1127,.close-zoom-1128,.close-zoom-1129,.close-zoom-1130,.close-zoom-1131,.close-zoom-1132,.close-zoom-1133,.close-zoom-1134,.close-zoom-1135,.close-zoom-1136,.close-zoom-1137,.close-zoom-1138,.close-zoom-1139,.close-zoom-1140,.close-zoom-1141,.close-zoom-1142,.close-zoom-1143,.close-zoom-1144,.close-zoom-1145,.close-zoom-1146,.close-zoom-1147,.close-zoom-1148,.close-zoom-1149,.close-zoom-1150, .close-zoom-1151 {
+	z-index: 111;
+    position: fixed;
+	margin: 0 0 0 -60px;
+    top: 15px;
+    left: 15px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+.close-zoom-111,.close-zoom-112,.close-zoom-113,.close-zoom-114,.close-zoom-115,.close-zoom-116,.close-zoom-117,.close-zoom-118,.close-zoom-119,.close-zoom-1110,.close-zoom-1111,.close-zoom-1112,.close-zoom-1113,.close-zoom-1114,.close-zoom-1115,.close-zoom-1116,.close-zoom-1117,.close-zoom-1118,.close-zoom-1119,.close-zoom-1120,.close-zoom-1121,.close-zoom-1122,.close-zoom-1123,.close-zoom-1124,.close-zoom-1125,.close-zoom-1126,.close-zoom-1127,.close-zoom-1128,.close-zoom-1129,.close-zoom-1130,.close-zoom-1131,.close-zoom-1132,.close-zoom-1133,.close-zoom-1134,.close-zoom-1135,.close-zoom-1136,.close-zoom-1137,.close-zoom-1138,.close-zoom-1139,.close-zoom-1140,.close-zoom-1141,.close-zoom-1142,.close-zoom-1143,.close-zoom-1144,.close-zoom-1145,.close-zoom-1146,.close-zoom-1147,.close-zoom-1148,.close-zoom-1149,.close-zoom-1150, .close-zoom-1151:hover,
+.close-zoom-111,.close-zoom-112,.close-zoom-113,.close-zoom-114,.close-zoom-115,.close-zoom-116,.close-zoom-117,.close-zoom-118,.close-zoom-119,.close-zoom-1110,.close-zoom-1111,.close-zoom-1112,.close-zoom-1113,.close-zoom-1114,.close-zoom-1115,.close-zoom-1116,.close-zoom-1117,.close-zoom-1118,.close-zoom-1119,.close-zoom-1120,.close-zoom-1121,.close-zoom-1122,.close-zoom-1123,.close-zoom-1124,.close-zoom-1125,.close-zoom-1126,.close-zoom-1127,.close-zoom-1128,.close-zoom-1129,.close-zoom-1130,.close-zoom-1131,.close-zoom-1132,.close-zoom-1133,.close-zoom-1134,.close-zoom-1135,.close-zoom-1136,.close-zoom-1137,.close-zoom-1138,.close-zoom-1139,.close-zoom-1140,.close-zoom-1141,.close-zoom-1142,.close-zoom-1143,.close-zoom-1144,.close-zoom-1145,.close-zoom-1146,.close-zoom-1147,.close-zoom-1148,.close-zoom-1149,.close-zoom-1150, .close-zoom-1151:focus {
+    color: #a8a8a8;
+	z-index: 10000;
+    text-decoration: none;
+    cursor: pointer;
+}
+	
+}
